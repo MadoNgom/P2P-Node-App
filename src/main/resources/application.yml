@@ -1,1 +1,9 @@
-spring.application.name=P2PNodeApplication
+server:
+  port: 5000
+
+node:
+  id: node-A
+  storage: storage_node_5000
+  peers:
+    - http://localhost:5001
+    - http://localhost:5002
